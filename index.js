@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors({
   origin : [
     'https://trendmart-2a783.web.app',
-    'http://localhost:5173/'
+    'http://localhost:5173'
   ]
 }));
 
